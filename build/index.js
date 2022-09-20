@@ -1,0 +1,24 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const app_1 = __importDefault(require("./app"));
+const Follow_1 = require("./endpoints/Follow");
+const Recipe_1 = require("./endpoints/Recipe");
+const User_1 = require("./endpoints/User");
+const user = new User_1.User();
+const recipe = new Recipe_1.Recipe();
+const follow = new Follow_1.Follow();
+app_1.default.get('/profile', user.getProfile);
+app_1.default.get('/user/:id', user.getUserById);
+app_1.default.get('/feed', recipe.geAlltRecipeByIdUser);
+app_1.default.get('/recipe/:id', recipe.getRecipeByid);
+app_1.default.post('/signup', user.signup);
+app_1.default.post('/login', user.login);
+app_1.default.post('/recipe', recipe.createRecipe);
+app_1.default.post('/user/follow', follow.userFollow);
+app_1.default.post('/user/unfollow', follow.userUnfollow);
+app_1.default.put('/recipe/:id', recipe.editRecipeById);
+app_1.default.delete('/recipe/:id/remove', recipe.deleteRecipeById);
+app_1.default.delete('/user/remove', user.deleteUserById);
