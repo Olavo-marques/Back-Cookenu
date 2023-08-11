@@ -68,8 +68,6 @@ O objetivo do projeto foi a criar uma api para um site de recita, onde é possí
 
 <img src="./src/assets/buscar-receita.png">
                                     
-O objetivo do projeto foi a criação de uma api para site de recita, onde é possível criar usuário, login, ver perfil, criar receita e muitos outras endpoints confira todos na documentação acima.
-
 ### Como Rodar o projeto
 
 [Abrir Projeto no GitHub](https://github.com/future4code/alves-Olavo-Nascimento/pull/66)
