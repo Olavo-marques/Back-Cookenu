@@ -8,7 +8,66 @@ Cookenu-Back
 
 ### Descrição
 
-Nesse projeto foi feita uma parta do back end do então projeto labecommerce, onde e possível buscar e criar usuários, produtos, sendo que usuários também sendo possível por varias ordenações.
+O objetivo do projeto foi a criar uma api para um site de recita, onde é possível fazer as seguintes requisições:
+
+- Fazer cadastro
+- Fazer login
+- Buscar perfil
+- Buscar usuário por id
+- Ver todas as receitas do usuário logado
+- Seguir um usuário
+- Parar de seguir um usuário
+- Deletar todas as imformações de um usuário
+- Criar uma receita
+- Editar uma receita
+- Buiscar receita por id
+- Deletar uma receita por id
+
+##### Mais informações sobre as requisições ver [Documentação](https://documenter.getpostman.com/view/21555844/2s7YtNnGcp)
+
+### Cadastro
+
+<img src="./src/assets/cadastro.png">
+
+### Login
+
+<img src="./src/assets/login.png">
+
+### Buscar Perfil
+
+<img src="./src/assets//buscar-perfil.png>
+
+### Buscar Usuário Por Id
+
+<img src="./src/assets/buscar-usuario-id.png">
+
+### Seguir Usuário
+
+<img src="./src/assets/seguir-usuario.png">
+
+### Parar de Seguir Usuário
+
+<img src="./src/assets/parar-de-seguir.png">
+
+### Deletar Usuário
+
+<img src="./src/assets/deletar-usuario.png">
+
+### Criar Receitas
+
+<img src="./src/assets/criar-receita.png">
+
+### Editar Receitas
+
+<img src="./src/assets/editar-receita.png">
+
+### Deletar receitas
+
+<img src="./src/assets/deletar-receita.png">
+
+### Buscar Receitas Por Id
+
+<img src="./src/assets/cadastro.png">
 
 ### Como Rodar o projeto
 
