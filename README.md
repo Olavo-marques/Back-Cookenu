@@ -7,7 +7,6 @@ Cookenu-Back
 [Documentação](https://documenter.getpostman.com/view/21555844/2s7YtNnGcp)
 
 ### Descrição
-
 O objetivo do projeto foi a criar uma api para um site de recita, onde é possível fazer as seguintes requisições:
 
 - Fazer cadastro
@@ -67,13 +66,15 @@ O objetivo do projeto foi a criar uma api para um site de recita, onde é possí
 
 ### Buscar Receitas Por Id
 
-<img src="./src/assets/cadastro.png">
+<img src="./src/assets/buscar-receita.png">
+                                    
+O objetivo do projeto foi a criação de uma api para site de recita, onde é possível criar usuário, login, ver perfil, criar receita e muitos outras endpoints confira todos na documentação acima.
 
 ### Como Rodar o projeto
 
 [Abrir Projeto no GitHub](https://github.com/future4code/alves-Olavo-Nascimento/pull/66)
 
-- Faça um clone do projeto apartir do lik acima
+- Faça um clone do projeto a partir do link acima
 
 - Abra esse arquivo com Visual Studio Code
 
